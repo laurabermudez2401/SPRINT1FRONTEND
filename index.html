@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiendita</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">    
+</head>
+<body>
+    <header class="contenedor-main">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <span class="logo">La Tiendita de Gaby</span>
+            </div>
+            <ul class="navbar-nav d-flex flex-row">
+              <li class="nav-item me-3 me-lg-0"><a class="nav-link" href="#"><img id="logotipo" src="https://images.vexels.com/media/users/3/154655/isolated/preview/71dccbb077597dea55dfc5b7a7af52c4-icono-de-contacto-de-pin-de-ubicacion.png" alt=""></a></li>
+              <li class="nav-item me-3 me-lg-0"><a class="nav-link" href="#"><img id="logotipo" src="https://cdn-icons-png.flaticon.com/512/114/114038.png" alt=""></a></li>
+                
+            </ul>
+          </nav>
+               
+        <div id="caja1" class="p-5 text-center bg-dark" style="background-image: url('img/wepik-202201-12382.jpg'); height: 200px;">
+            
+            <h1 id="text"  style="color: black
+            ;">¡Adquiere tus productos al mejor precio!</h1>
+        </div>
+    </header>
+        <div class="container">
+            <h2 class="text-center">Productos</h2>
+            <hr>
+           <div class="row" id="contenedor-productos"></div>
+                
+        </div>
+        <div class="container mt-5">
+            <hr />
+            <div class="row">
+                <div div class="col-12">
+                    <h3 class="text-center"></h3>
+                    <ul class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+        
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+    <footer class="bg-dark text-center text-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="nav-link active" href="./index.html">Home</a>
+                <a class="nav-link" href="#p">Perfil</a>
+            </div>
+        </nav>
+  
+        <div class="container p-4">
+            <section>
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Suscríbase a nuestra tienda y conozca sus beneficios</strong>
+                              </p>
+                        </div>
+                        <hr>
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" />
+                                <label class="form-label" for="form5Example21">Correo Electrónico </label>
+                            </div>    
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Suscribir
+                            </button>
+                        </div>
+                    </div>    
+                </form>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="./script/main.js" type="module"></script>
+
+
+
+
+</body>
+</html>

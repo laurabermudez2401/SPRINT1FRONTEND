@@ -1,0 +1,47 @@
+/*import { producto } from "../data";
+let tar_productos = document.getElementById("tar_productos");
+tar_productos.innerHTML = '';
+producto.forEach(productos =>{
+    const {precio,title,img} = productos;
+    tar_productos.innerHTML += `<div class="sectionproductos">
+                                    <img src=${img} class=imgproducto">
+                                    <p>${title}
+                                    <br>
+                                    ${precio}</p>
+                                </div>`
+})//*
+
+/*
+
+
+
+
+/*const items = document.getElementById('items')
+const templateCard = document.getElementById('template-card').content
+const fragment = document.createDocumentFragment()
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetchData()
+})
+
+const getElemetos= async (url) => {
+    const res = await fetch ('url')   
+    const data = await res.json 
+    let mostrarElementos = document.querySelector('')
+
+}
+
+
+//const pintarCards= data => {
+
+let tarjetacard = document.getElementById("items");
+tarjetacard.innerHTML = '';
+productos.forEach(producto => {
+    const { precio,title,thumbnailUrl} = producto;
+    productos.innerHTML += `<div class="sectioncard">
+                                <p>${title}</p>
+                                <img src=${thumbnailUrl} class="imgcard">
+                                <p>${precio}</p>
+                            </div> `
+};
+/*
