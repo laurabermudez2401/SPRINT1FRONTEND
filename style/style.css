@@ -1,5 +1,5 @@
 img{
-    height: 200px ;
+    height: 150px ;
     width: 80%;
 }
 
@@ -39,4 +39,10 @@ img{
     background-color: coral;
     border-radius: 15px;
     text-align: center;
+}
+.list-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }

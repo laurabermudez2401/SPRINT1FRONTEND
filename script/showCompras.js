@@ -1,11 +1,12 @@
-export const showCompras = async (list, element) => {
+export const showCompras = async (list, elementCar) => {
     const items = await list
 
     items.forEach(item => {
-        const {precio, id, title,thumbnailUrl} = item
+        const {precio, title,thumbnailUrl} = item
         
-        element.innerHTML += `
-                <table class="table table-dark table-hover">
+        elementCar.innerHTML += `
+                
+                <table class="table table-dark table table-responsive">
                 <thead>
                     <tr class="tex-primrary">
                     <th scope="col">#</th>
@@ -33,10 +34,10 @@ export const showCompras = async (list, element) => {
                     <div class="col">
                         <h3 class="itemCartTotal">Total:0</h3>
                     </div> 
-                <div class="col d-flex justity content-end>   
+                <div id="btnAgregar" class="col d-flex justity-content-end>   
                     <button class="btn btn-success">COMPRAR</button>
-                </div>   
+                  
             `
         
-    });
+    }); 
 }

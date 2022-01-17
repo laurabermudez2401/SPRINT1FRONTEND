@@ -26,16 +26,28 @@
       "thumbnailUrl": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Jitomate_Bola_avarll.jpg"
     },
     {
-      "precio": 10,
+      "precio": 5000,
       "id": 5,
       "title": "Pan Bimbo",
       "thumbnailUrl": "https://res.cloudinary.com/lau2401/image/upload/v1641500087/Name_Pan_Bimbo_gzriwe.jpg"
     },
     {
-      "precio": 150,
+      "precio": 15000,
       "id": 6,
       "title": "Huevos",
       "thumbnailUrl": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Huevos_rpclev.jpg"
-    }
+    },
+    {
+      "precio": 1500,
+      "id": 7,
+      "title": "Tomáte Verde",
+      "thumbnailUrl": "https://res.cloudinary.com/lau2401/image/upload/v1641500090/Name_Tomate_verde_vtgfxg.jpg"
+    },
+    {
+      "precio": 3000,
+      "id": 8,
+      "title": "Nopal",
+      "thumbnailUrl": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Nopal_rtkhhu.jpg"
+    }    
   ]
 }  
