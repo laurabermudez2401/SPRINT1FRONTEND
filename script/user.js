@@ -3,7 +3,7 @@ let btnCorreo = document.getElementById('btnCorreo');
 let btnEditar = document.getElementById('btnEditar');
 let btnEliminar = document.getElementById('btnEliminar');
 
-let url = 'https://crudmariobros.herokuapp.com/usuarios/'
+let url = 'https://apitiend.herokuapp.com/usuarios/'
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('id').style.display = 'none'
