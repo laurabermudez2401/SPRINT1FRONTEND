@@ -1,6 +1,6 @@
 const API_OFERTAS = 'https://apitiend.herokuapp.com/ofertas'
 const API_POPULARES = 'https://apitiend.herokuapp.com/populares'
-const API_UBICACIONES = 'https://apitiend.herokuapp.com/populares'
+const API_UBICACIONES = 'https://apitiend.herokuapp.com/uicaciones'
 let productosCar = JSON.parse(localStorage.getItem('ProductosCarro')) || []
 let LSUbicacion = JSON.parse(localStorage.getItem('ubicacion')) || ""
 const oferta = document.getElementById('productOferta')

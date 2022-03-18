@@ -7,7 +7,7 @@ const btnSettings = document.getElementById('btnSettings')
 
 
 btnSettings.addEventListener('click', () => {
-    window.location.href = "CRUD.html"
+    window.location.href = "user.html"
 })
 
 titulo.addEventListener('click', () => {
